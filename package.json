@@ -1,0 +1,21 @@
+{
+  "name": "36-mernftb",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "license": "MIT",
+  "author": "Felipe Icaza",
+  "scripts": {
+    "start": "node backend/server.ts",
+    "serve": "nodemon backend/server.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
