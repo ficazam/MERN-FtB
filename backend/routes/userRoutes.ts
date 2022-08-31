@@ -1,5 +1,5 @@
-const exp1 = require("express");
-const router = exp1.Router();
+const express = require("express");
+const router = express.Router();
 const {
   registerUser,
   loginUser,

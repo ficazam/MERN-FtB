@@ -95,3 +95,4 @@ const generateToken = (id: string) => {
 
 
 module.exports = { registerUser, loginUser, getMe };
+export {}
